@@ -1,7 +1,7 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  // Wait for data 
+  // Wait for data and changes the timeout that Serial has: by default its 1 second
   Serial.setTimeout(10);
 
 
